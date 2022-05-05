@@ -3,26 +3,20 @@ import { Task } from "./Task"
 export const TASKS: Task[] = [
     {
         id: 1,
-        text: "Terminar promer modulo de Angular",
-        day: "Agosto 5 a las 12:00",
+        text: "Terminar módulo de Angular",
+        day: "Jueves 5 de Mayo a las 23:00 hs",
         reminder: true,
     },
     {
         id: 2,
         text: "Hacer las compras",
-        day: "Agosto 6 a las 12:00",
+        day: "Sábado 7 de Mayo a las 10:00 hs",
         reminder: true,
     },
     {
         id: 3,
-        text: "Investigar sobre Boostrap",
-        day: "Agosto 7 a las 12:00",
-        reminder: true,
-    },
-    {
-        id: 4,
         text: "Ir a pescar",
-        day: "Agosto 8 a las 12:00",
+        day: "Domigo 8 de Mayo a las 07:00 hs",
         reminder: true,
     },
 
