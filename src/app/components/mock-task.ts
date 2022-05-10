@@ -17,13 +17,13 @@ export const TASKS: Task[] = [
         id: 3,
         text: "Hacer las compras",
         day: "Sábado 7 de Mayo a las 14:00 hs",
-        reminder: true,
+        reminder: false,
     },
     {
         id: 4,
         text: "Ir a pescar",
         day: "Domigo 8 de Mayo a las 07:00 hs",
-        reminder: true,
+        reminder: false,
     },
 
 ]
