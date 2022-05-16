@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { text } from '@fortawesome/fontawesome-svg-core';
 import { TaskService } from 'src/app/service/task.service';
 import { Task } from '../Task';
 
@@ -32,6 +33,13 @@ export class TasksComponent implements OnInit {
   toggleReminder(task: Task){
     task.reminder = !task.reminder;
     this.taskServices.updateTaskReminder(task).subscribe();
+  }
+
+  addTask(task: Task){
+    this.taskServices.addTask(task)
+    .subscribe(
+    (task) => (
+    this.tasks.push(task)))
   }
 
 }

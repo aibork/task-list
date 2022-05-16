@@ -23,6 +23,12 @@
       "text": "Ir a pescar",
       "day": "Domigo 8 de Mayo a las 07:00 hs",
       "reminder": true
+    },
+    {
+      "text": "Terminar Capítulo",
+      "day": "Lunes 16 de Mayo a las 19:00 hs",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
